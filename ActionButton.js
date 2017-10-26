@@ -94,7 +94,7 @@ export default class ActionButton extends Component {
 
   render() {
     return (
-      <View
+      <Animated.View
         pointerEvents="box-none"
         style={[this.getOverlayStyles(), this.props.style]}
       >
@@ -133,7 +133,7 @@ export default class ActionButton extends Component {
             this.props.children &&
             this._renderActions()}
         </View>
-      </View>
+      </Animated.View>
     );
   }
 
